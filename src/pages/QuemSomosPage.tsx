@@ -25,7 +25,6 @@ const QuemSomosPage: React.FC = () => {
         Quem Somos
       </Typography>
 
-      {/* História */}
       <Box
         sx={{
           display: "flex",
