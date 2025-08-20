@@ -4,7 +4,7 @@ import Servicos from "./servicos";
 import Galeria from "./GaleriaHome";
 import ContatoPage from "./ContatoPage";
 
-const HomePage: React.FC = () => {
+const PaginaInicial: React.FC = () => {
   return (
     <>
       <div style={{ width: "100vw", margin: 0, padding: 0 }}>
@@ -19,4 +19,4 @@ const HomePage: React.FC = () => {
 };
 
 
-export default HomePage;
+export default PaginaInicial;
