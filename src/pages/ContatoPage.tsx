@@ -6,6 +6,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 const ContatoPage: React.FC = () => {
   return (
     <Box
+      id="contato"
       sx={{
         py: 8,
         px: { xs: 3, md: 8 },

@@ -12,7 +12,7 @@ const CarouselComponent: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 1000); // Troca a cada 3 segundos (corrigido, estava 1 segundo)
+    }, 2500); // Troca a cada 3 segundos (corrigido, estava 1 segundo)
 
     return () => clearInterval(interval);
   }, []);

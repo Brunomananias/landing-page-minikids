@@ -5,13 +5,11 @@
   box-sizing: border-box;
 }
 
-/* Garantir que a imagem ocupe toda a tela sem margens extras */
-html, body, #root {
-  height: 100%;
+html, body {
+  margin: 0;
+  padding: 0;
   width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* corta qualquer conteúdo que tente ultrapassar */
 }
 
-/* REMOVA o display: flex do body */
-body {
-  overflow-x: hidden; /* Evitar barras de rolagem horizontais */
-}

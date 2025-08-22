@@ -9,6 +9,7 @@ const QuemSomosPage: React.FC = () => {
 
   const equipe = [
     { nome: "Ana", cargo: "CEO da Minikids e Recreadora", imagem: "images/quemsomos/recreador003.png" },
+    { nome: "Raquel", cargo: "Sócia da Minikids", imagem: "images/quemsomos/raquel.png" },
     { nome: "Karielli", cargo: "Recreadora", imagem: "images/quemsomos/recreador001.png" },
     { nome: "Ricardo", cargo: "Recreador", imagem: "images/quemsomos/recreador002.png" },
   ];

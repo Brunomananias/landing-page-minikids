@@ -29,8 +29,29 @@ const servicos = [
 const ServicosOferecidos: React.FC = () => {
   const navigate = useNavigate();
 
-  return (
+  return (    
     <Box sx={{ py: 8, px: { xs: 3, md: 8 }, backgroundColor: "#F6E7D8" }}>
+         <Box sx={{ display: "flex", justifyContent: "center", mb: 5, mt: -10 }}>
+            <motion.svg
+              width="300"
+              height="40"
+              viewBox="0 0 300 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              initial={{ scaleX: 0 }}
+              whileInView={{ scaleX: 1 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              style={{ originX: 0 }}
+            >
+              <path
+                d="M0 20 Q50 0 100 20 T200 20 T300 20"
+                stroke="#FFD700"
+                strokeWidth="4"
+                fill="transparent"
+              />
+            </motion.svg>
+          </Box>
       <Typography
         variant="h3"
         align="center"

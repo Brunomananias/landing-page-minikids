@@ -55,7 +55,7 @@ const Galeria: React.FC = () => {
           fontFamily: "'Baloo 2', cursive",
           fontWeight: "bold",
           color: "#FF6F61",
-          mb: 6,
+          mb: 4,
         }}
       >
         Galeria de Fotos
@@ -102,11 +102,8 @@ const Galeria: React.FC = () => {
               alt={foto.categoria}
               className="foto-img"
               onClick={() => setImagemSelecionada(foto.url)}
-              style={{ cursor: "pointer" }}
+              style={{ cursor: "pointer", height: 250 }}
             />
-            {foto.descricao && (
-              <div className="descricao-overlay">{foto.descricao}</div>
-            )}
           </div>
         ))}
       </div>

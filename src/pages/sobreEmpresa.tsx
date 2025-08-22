@@ -15,22 +15,27 @@ const SobreEmpresa: React.FC = () => {
       }}
     >
       {/* Linha decorativa */}
-      <Box sx={{ display: "flex", justifyContent: "center", marginY: 1 }}>
-        <svg
-          width="300"
-          height="40"
-          viewBox="0 0 300 40"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0 20 Q50 0 100 20 T200 20 T300 20"
-            stroke="#FFD700"
-            strokeWidth="4"
-            fill="transparent"
-          />
-        </svg>
-      </Box>
+       <Box sx={{ display: "flex", justifyContent: "center", mb: 5, mt: 2 }}>
+                  <motion.svg
+                    width="300"
+                    height="40"
+                    viewBox="0 0 300 40"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    initial={{ scaleX: 0 }}
+                    whileInView={{ scaleX: 1 }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true }}
+                    style={{ originX: 0 }}
+                  >
+                    <path
+                      d="M0 20 Q50 0 100 20 T200 20 T300 20"
+                      stroke="#FFD700"
+                      strokeWidth="4"
+                      fill="transparent"
+                    />
+                  </motion.svg>
+                </Box>
 
       {/* Título */}
       <Typography
