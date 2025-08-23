@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
     { label: "Quem somos", to: "/quem-somos" },
     { label: "Serviços", to: "/nossos-servicos" },
     { label: "Galeria", to: "/galeria" },
-    { label: "Depoimentos", to: "/depoimentos" },
+    // { label: "Depoimentos", to: "/depoimentos" },
     { label: "Contato", to: "#contato" },
   ];
 

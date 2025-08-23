@@ -4,12 +4,6 @@ import { motion } from "framer-motion";
 
 const servicos = [
   {
-    nome: "✅ Torta na Cara",
-    imagem: "/servicos/torta.jpg",
-    descricao:
-      "Uma das brincadeiras mais esperadas das festas! As crianças se enfrentam em desafios de perguntas e respostas, e quem errar... leva torta na cara! Muita risada, leveza e diversão garantida.",
-  },
-  {
     nome: "🎈 Esculturas de Balão",
     imagem: "images/servicos/escultura001.jpg",
     descricao:
@@ -19,7 +13,7 @@ const servicos = [
     nome: "🎯 Brincadeiras",
     imagem: "images/servicos/brincadeira002.jpg",
     descricao:
-      "Corrida do saco, dança da cadeira, caça ao tesouro e outras gincanas clássicas e modernas. Atividades que incentivam o trabalho em equipe, o movimento e, claro, a alegria de brincar!",
+      "Corrida do saco, torta na cara, dança da cadeira, caça ao tesouro e outras gincanas clássicas e modernas. Atividades que incentivam o trabalho em equipe, o movimento e, claro, a alegria de brincar!",
   },
   {
     nome: "🎨 Pinturas Faciais",
